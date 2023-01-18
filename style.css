@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#page .section:nth-child(1){background:url(./main1.jpg) #1d1b1c center/contain no-repeat ;}
+#page .section:nth-child(2){background:url(./main2.jpg) top/contain no-repeat ;}
+#page .section:nth-child(3){background:url(./main3.jpg) #1d1b1c top/contain no-repeat ;}
+#page .section:nth-child(4){background:url(./main4.jpg) top/contain no-repeat ;}
+#page .section:nth-child(5){background:url(./main5.jpg) top/contain no-repeat ;}
+#page .section:nth-child(6){background:url(./main6.jpg) top/contain no-repeat ;}
+#page .section:nth-child(7){background:url(./main7.jpg) top/contain no-repeat ;}
+#page .section:nth-child(8){background:url(./main8.jpg) top/contain no-repeat ;}
+#page .section:nth-child(9){background:url(./main9.jpg) #1d1b1c top/contain no-repeat ;}
+
+.gnb{
+    position: fixed;
+    width:100%;
+    height: 50px;
+    z-index: 3;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 1px 1px 30px rgb(0,0,0);
+    left:0;
+    top:0;
+}
+.gnb ul{
+    min-width:400px;
+    width:50%;
+    display: flex;
+}
+.gnb li{
+    flex:1 1 25%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
